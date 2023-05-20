@@ -1,0 +1,217 @@
+.main{
+	background-image:url('images/Bg Main.jpg');
+	width: 100%;
+	background-size: cover;
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.main_inner{
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column;
+	width: 100%;
+}
+.main_inner img{
+	width: 432px;
+	height: 432px;
+	margin-top: 108;
+}
+.first-banner{
+	height: 593px;
+	width: 100%;
+	background-image: url('images/USA hat.jpg');
+}
+.first-banner__inner h1{
+	font-family: 'Jura';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 106px;
+	
+	color: #000000;
+}
+.info{
+	background: black;
+	text-align:center
+}
+.info h2{
+	font-family: 'Jura';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 77px;
+	/* identical to box height */
+
+
+	background: linear-gradient(180deg, #F3D983 0%, #C19826 46.35%, #A57C13 95.83%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.info h3{
+	font-family: 'JejuMyeongjo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 50px;
+
+	background: linear-gradient(180deg, #F3D983 0%, #C19826 46.35%, #A57C13 95.83%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.info p{
+	font-family: 'Germania One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 41px;
+	/* identical to box height */
+
+
+	background: linear-gradient(180deg, #F3D983 0%, #C19826 46.35%, #A57C13 95.83%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.grid_USA{
+	display: grid;
+	gap: 18px;
+	grid-template-columns: repeat(5, 19%);
+	grid-template-rows: repeat(2, 200px);
+		grid-template-areas:
+		"a a a b b"
+		"a a a c c";
+}
+.grid_USA_a{
+	grid-area: a;
+	background-image: url('images/biden_v_plate.jpg');
+	background-size: cover;
+}
+.grid_USA_b{
+	grid-area: b;
+	background-image: url('images/biden_s_flagom.png');
+	background-size: cover;
+}
+.grid_USA_c{
+	grid-area: c;
+	background-image: url('images/biden_prosto_biden.png');
+	background-size: cover;
+}
+.slide{
+	/*width: 100%;*/
+	height: 100vh;
+}
+.USA{
+	background-image: url('images/Slide USA BG.png');
+}
+.slide__inner h2{
+	font-family: 'JejuMyeongjo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 50px;
+	margin: 0;
+	
+	color: #FFFFFF;
+}
+.slide__inner p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	max-width: 400px;
+	
+	color: #F5F5F5;
+}
+.btn{
+	background: #FF0000;
+	width: 466px;
+	height: 74px;
+	font-family: 'JejuMyeongjo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 55px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	margin-bottom: 104px;
+
+	color: #000000;
+}
+.slide__inner{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.main_inner h1{
+	font-family: 'Jura';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 77px;
+
+
+	color: #000000;
+
+}
+.main_inner p{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+color: #000000;
+}
+.main__cont{max-width: 40%;	text-align:center;}
+
+.first-banner__inner h1{text-align:center;}
+
+.grid_Italy{
+	display: grid;
+	gap: 18px;
+	grid-template-columns: repeat(5, 19%);
+	grid-template-rows: repeat(2, 200px);
+		grid-template-areas:
+		"a a a b b"
+		"a a a c c";
+}
+.grid_Italy_a{
+	grid-area: a;
+	background-image: url('images/Group 1.png');
+	background-size: cover;
+}
+.grid_Italy_b{
+	grid-area: b;
+	background-image: url('images/image 4.png');
+	background-size: cover;
+}
+.grid_Italy_c{
+	grid-area: c;
+	background-image: url('images/image 5.png');
+	background-size: cover;
+}
+.first-banner-Italy{
+	height: 593px;
+	width: 100%;
+	background-image: url('images/Rectangle 9.png');
+}
