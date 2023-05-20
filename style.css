@@ -215,3 +215,31 @@ color: #000000;
 	width: 100%;
 	background-image: url('images/Rectangle 9.png');
 }
+.grid_China{
+	display: grid;
+	gap: 18px;
+	grid-template-columns: repeat(5, 19%);
+	grid-template-rows: repeat(2, 200px);
+		grid-template-areas:
+		"a a a b b"
+		"a a a c c";
+}
+.grid_China_a{
+	grid-area: a;
+	background-image: url('images/si.png');
+	background-size: cover;
+}
+.grid_China_b{
+	grid-area: b;
+	background-image: url('images/si(3).png');
+	background-size: cover;
+}
+.grid_China_c{
+	grid-area: c;
+	background-image: url('images/si(2).png');
+	background-size: cover;
+}
+.first-banner-China{
+	height: 593px;
+	width: 100%;
+	background-image: url('images/image 17.png');
